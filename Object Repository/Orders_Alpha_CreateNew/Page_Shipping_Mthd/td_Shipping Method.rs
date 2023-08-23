@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Shipping Method</name>
+   <tag></tag>
+   <elementGuidId>9f06dead-4a21-4e77-b60f-a5bf9a8bc8e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td > table > tbody > tr > td:nth-of-type(2) > table.InfoBox > tbody > tr > td.HeaderStyle1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>dd65755e-f4b8-4024-a25f-19e83af4f51d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>HeaderStyle1</value>
+      <webElementGuid>3233363d-c85b-4a1c-acad-1b43b49f835f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>ec994ac5-e122-4993-b03c-5841dbd6fa8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shipping Method
+                                                    </value>
+      <webElementGuid>76be256a-d8a7-443f-8ab2-c49efe0008c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlCreateOrder&quot;)/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/table[@class=&quot;InfoBox&quot;]/tbody[1]/tr[1]/td[@class=&quot;HeaderStyle1&quot;]</value>
+      <webElementGuid>f9f2a46f-d945-41c2-aeb7-8aa8455c6cc8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td</value>
+      <webElementGuid>29ddf3d0-4086-4110-8c73-72a1cd02ae01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments:'])[1]/following::td[2]</value>
+      <webElementGuid>3021f359-c179-426e-8ff0-8e645e0126bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrier:'])[1]/preceding::td[1]</value>
+      <webElementGuid>12d13676-e97b-4838-bdd2-5e9eef5a0cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Method:'])[1]/preceding::td[3]</value>
+      <webElementGuid>0f2e09f2-f235-43b2-8789-eabbb6a2231a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shipping Method']/parent::*</value>
+      <webElementGuid>6b13507f-ab72-4431-9cfc-fcd4f340e08c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td</value>
+      <webElementGuid>b0e1da53-b8e3-4fe8-9166-c27b80abd6de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Shipping Method
+                                                    ' or . = 'Shipping Method
+                                                    ')]</value>
+      <webElementGuid>0bfe2f0c-bdb2-478b-99c4-d963e290dcee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

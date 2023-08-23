@@ -19,14 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://cwa/login.aspx?ReturnUrl=%2f')
+WebUI.setViewPortSize(1920, 1080)
 
-WebUI.setText(findTestObject('Object Repository/Page_SellerCloud/input_Email Address_ctl00ContentPlaceHolder_5caeea'), 'umer.m@sellercloud.com')
+WebUI.maximizeWindow()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_SellerCloud/input_Password_ctl00ContentPlaceHolder1txtPwd'), 
-    'oMYFmvvfqWpyT73MSll7MQ==')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/Page_SellerCloud/input_Remember me next time_ctl00ContentPla_398d79'))
+WebUI.setText(findTestObject('Page_SellerCloud_Login/input_Email Address_Login'), GlobalVariable.UserName)
 
-WebUI.click(findTestObject('Object Repository/Page_SellerCloud Homepage/span_Home'))
+WebUI.setText(findTestObject('Page_SellerCloud_Login/input_Password_Login'), GlobalVariable.Password)
+
+WebUI.verifyElementPresent(findTestObject('Page_SellerCloud_Login/label_Remember me next time_Present'), 0)
+
+WebUI.click(findTestObject('Page_SellerCloud_Login/input_1btnLogin2'))
+
+WebUI.waitForJQueryLoad(2)
 

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_method_after_carriername_select</name>
+   <tag></tag>
+   <elementGuidId>d83f611b-4c8b-41f3-8b1e-3ad4aa5ae6fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_ddlShippingMethod</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ContentPlaceHolder1_ddlShippingMethod']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7470d79b-541c-4475-aeb9-ea5ae4993889</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$ddlShippingMethod</value>
+      <webElementGuid>59219d2c-2982-4e23-a4ce-1096c3afccc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_ddlShippingMethod</value>
+      <webElementGuid>10ae9a39-af6f-4d0c-a46d-c333ec47e21e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			Select
+			Amazon Ground
+			AMZL_US_SH
+			AMZL_US_SH_PARCEL
+			AMZL_US_SH_SD
+
+		</value>
+      <webElementGuid>8ad1e60a-5d30-4f8c-9484-c39804b838fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_ddlShippingMethod&quot;)</value>
+      <webElementGuid>f5a3d1c1-ce49-4c71-8b75-6625b4d05709</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ContentPlaceHolder1_ddlShippingMethod']</value>
+      <webElementGuid>09a831e5-d33f-4646-8f97-386cafd5ad95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>2b737633-92c0-48d6-9666-e192593bc096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Method:'])[1]/following::select[1]</value>
+      <webElementGuid>4c925133-3b6d-4984-9b3d-208961214901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrier:'])[1]/following::select[2]</value>
+      <webElementGuid>b4497439-0784-454c-99a4-97eadac735ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lock shipping method'])[1]/preceding::select[1]</value>
+      <webElementGuid>7198d4e9-ab67-4977-be5a-9d41330569d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rush order'])[1]/preceding::select[1]</value>
+      <webElementGuid>8d601ca2-b895-417b-95e3-4cd4bc8e1bac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/table/tbody/tr[3]/td[2]/select</value>
+      <webElementGuid>0523b336-7c04-4fbc-8c77-761724123705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$ContentPlaceHolder1$ddlShippingMethod' and @id = 'ContentPlaceHolder1_ddlShippingMethod' and (text() = '
+			Select
+			Amazon Ground
+			AMZL_US_SH
+			AMZL_US_SH_PARCEL
+			AMZL_US_SH_SD
+
+		' or . = '
+			Select
+			Amazon Ground
+			AMZL_US_SH
+			AMZL_US_SH_PARCEL
+			AMZL_US_SH_SD
+
+		')]</value>
+      <webElementGuid>2eac1a2a-3d01-42f3-92cf-13eb04ee2fb6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

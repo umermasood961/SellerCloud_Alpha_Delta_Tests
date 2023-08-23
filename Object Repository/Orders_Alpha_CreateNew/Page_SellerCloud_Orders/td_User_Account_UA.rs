@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_User_Account_UA</name>
+   <tag></tag>
+   <elementGuidId>17480e05-7e71-44a5-be42-b5081a10cd8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.HeaderStyle1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>00212450-a9f5-41ef-9b1c-6e2a0df74e08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>HeaderStyle1</value>
+      <webElementGuid>b3e58f6c-7f64-4997-9b69-a23ddde4038e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Account
+                                                    </value>
+      <webElementGuid>f3d2e98f-c0f8-4552-9afd-4cd71b69ba42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlCreateOrder&quot;)/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;InfoBox&quot;]/tbody[1]/tr[1]/td[@class=&quot;HeaderStyle1&quot;]</value>
+      <webElementGuid>926bb84b-d9d2-422c-b6e1-42e6e75ad792</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>3064de78-c56d-4866-ac38-894f0ebe0991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To USD Rate:'])[1]/following::td[3]</value>
+      <webElementGuid>0953625a-7ee3-4327-9eda-6b5bd0a8047f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From USD Rate:'])[1]/following::td[4]</value>
+      <webElementGuid>54bfadb3-b8d9-4fd6-b71a-4d43171b9df9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::td[2]</value>
+      <webElementGuid>e036260d-3203-4cd7-b79c-61a053a1b255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name:'])[1]/preceding::td[4]</value>
+      <webElementGuid>7107849a-b6d7-4831-8d33-fb1f720bb74c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='User Account']/parent::*</value>
+      <webElementGuid>eeacfdbd-c4d1-44eb-bd36-2ddf9a3fc90b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>eef44342-36a5-4eab-9623-1320635a9d0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'User Account
+                                                    ' or . = 'User Account
+                                                    ')]</value>
+      <webElementGuid>a6089255-1a30-4cbe-b4f0-80bac1d06942</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

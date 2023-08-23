@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Create_New_Order_Click</name>
+   <tag></tag>
+   <elementGuidId>e2a76d9c-04b8-4f4a-a1f2-abe746059ea7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#TopSubMenu1_pnlMenu > a:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TopSubMenu1_pnlMenu']/a[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>468e9cdd-93fd-4de4-b9e5-54f6e008a93f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>Orders_CreateNewOrder.aspx</value>
+      <webElementGuid>47ae90c9-2054-4ac3-8a43-fa4e0aee8ab7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New Order</value>
+      <webElementGuid>f7017606-ce63-483c-8ad1-72e707559457</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TopSubMenu1_pnlMenu&quot;)/a[4]</value>
+      <webElementGuid>66b47ae5-d671-4f3f-ba93-3c401974dad7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TopSubMenu1_pnlMenu']/a[4]</value>
+      <webElementGuid>5e95823c-aea1-46bf-9917-2455d67226f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Create New Order')]</value>
+      <webElementGuid>29dd0ee0-1187-4ac9-b662-96bc5bacf2c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Channel Refund or Cancellation Failure'])[2]/following::a[1]</value>
+      <webElementGuid>307be329-287a-452f-bc9b-89e48df3f69d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Replace Order SKU'])[2]/following::a[2]</value>
+      <webElementGuid>3f0e3a2c-a1b8-4b50-b5ae-34f0f3dbe647</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Payments'])[2]/preceding::a[1]</value>
+      <webElementGuid>450e62a4-76f1-4216-9590-c4c5f9340a22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='eBay Returns'])[2]/preceding::a[2]</value>
+      <webElementGuid>ef0aefde-141e-4042-b689-953b8951759f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'Orders_CreateNewOrder.aspx')])[2]</value>
+      <webElementGuid>981d5d12-b0db-420a-830e-aff465d06a1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div/a[4]</value>
+      <webElementGuid>2b372913-41c8-43af-810a-2d95650b66c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'Orders_CreateNewOrder.aspx' and (text() = 'Create New Order' or . = 'Create New Order')]</value>
+      <webElementGuid>b4c42bf1-cfb0-4207-8780-b11061bdbbbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Remember me next time_ctl00ContentPla_398d79</name>
+   <name>input_Refresh_Totals_btnCreateOrder_SaveOrder</name>
    <tag></tag>
-   <elementGuidId>5cf2c5e8-5dce-4bbd-b2aa-98ba948c1cf4</elementGuidId>
+   <elementGuidId>17f0bc2d-d946-43a9-bfb0-a47bf439b466</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ContentPlaceHolder1_btnLogin2']</value>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_btnCreateOrder</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ContentPlaceHolder1_btnLogin2</value>
+         <key>XPATH</key>
+         <value>//input[@id='ContentPlaceHolder1_btnCreateOrder']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>36355241-8820-4d54-a93d-be6adaba6b7d</webElementGuid>
+      <webElementGuid>4dbdb617-ae84-4939-a4aa-df8609f60a26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,78 +30,78 @@
       <name>type</name>
       <type>Main</type>
       <value>image</value>
-      <webElementGuid>54f8b20c-0199-4900-9026-7c7683767ff3</webElementGuid>
+      <webElementGuid>3bf85efa-b76d-404f-83ac-d2dc85ffe959</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ctl00$ContentPlaceHolder1$btnLogin2</value>
-      <webElementGuid>db471f6a-8cb5-452a-a956-fce3463e7bd5</webElementGuid>
+      <value>ctl00$ContentPlaceHolder1$btnCreateOrder</value>
+      <webElementGuid>fa4897fa-4212-4561-94f6-8a635d8e05a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ContentPlaceHolder1_btnLogin2</value>
-      <webElementGuid>e2de4506-3a99-4a31-b797-6d22f2a3d846</webElementGuid>
+      <value>ContentPlaceHolder1_btnCreateOrder</value>
+      <webElementGuid>8e1640c0-9460-4048-b7c3-3df16147d6ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/images/buttons/log-in.gif</value>
-      <webElementGuid>734055e5-230e-4de8-8618-cededa063b28</webElementGuid>
+      <value>/images/app/SaveOrder.jpg</value>
+      <webElementGuid>f0a6032a-9b04-4d25-a281-f2561dd70344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>return onClick(event);</value>
-      <webElementGuid>cb166f7a-4863-4e8d-82c2-8bc3baa77f2a</webElementGuid>
+      <value>hideButtons();</value>
+      <webElementGuid>03f687ee-9419-4dc9-bbb7-d4f655277ec9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ContentPlaceHolder1_btnLogin2&quot;)</value>
-      <webElementGuid>bd43b549-1d57-473e-ae5e-c2d373163dad</webElementGuid>
+      <value>id(&quot;ContentPlaceHolder1_btnCreateOrder&quot;)</value>
+      <webElementGuid>b05cffcf-cf3b-41c8-b485-95c3a6ff2bf3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ContentPlaceHolder1_btnLogin2']</value>
-      <webElementGuid>f2fa62a2-1f21-4db0-a1d6-b51b976dd44c</webElementGuid>
+      <value>//input[@id='ContentPlaceHolder1_btnCreateOrder']</value>
+      <webElementGuid>8bd6c46c-6540-4ade-8013-ad7e377d4d79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='ContentPlaceHolder1_tblMain']/tbody/tr[10]/td/table/tbody/tr/td/input</value>
-      <webElementGuid>e6800353-42b9-40cc-8f62-062938bad6b3</webElementGuid>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[7]/td/input</value>
+      <webElementGuid>60ee0fc4-cbe0-4408-ba1a-c100f6200bc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/table/tbody/tr/td/input</value>
-      <webElementGuid>9d25fbaf-510b-470c-a7c4-afdb05763d3c</webElementGuid>
+      <value>//tr[7]/td/input</value>
+      <webElementGuid>6fabff69-fc67-4866-9be4-6884b3ec78b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'image' and @name = 'ctl00$ContentPlaceHolder1$btnLogin2' and @id = 'ContentPlaceHolder1_btnLogin2' and @src = '/images/buttons/log-in.gif']</value>
-      <webElementGuid>71576e17-2849-4252-94b5-88cf18f2ba9e</webElementGuid>
+      <value>//input[@type = 'image' and @name = 'ctl00$ContentPlaceHolder1$btnCreateOrder' and @id = 'ContentPlaceHolder1_btnCreateOrder' and @src = '/images/app/SaveOrder.jpg']</value>
+      <webElementGuid>48ded5a5-4116-4c20-8209-7b67d17c0df0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

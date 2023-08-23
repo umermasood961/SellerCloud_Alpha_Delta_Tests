@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Billing_To_BT</name>
+   <tag></tag>
+   <elementGuidId>03ae5aec-ab7e-4f8b-8824-d6cfe644b2ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.HeaderStyle1 > table > tbody > tr > td.HeaderStyle1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>f65c3588-e402-4dbc-b567-632748ee5254</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>HeaderStyle1</value>
+      <webElementGuid>a529be15-a292-4263-a5fb-3ae668601628</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Billing To
+                                                                            </value>
+      <webElementGuid>4d348133-ffaf-45b3-b29d-e9efa6ca5d45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlCreateOrder&quot;)/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/table[@class=&quot;InfoBox&quot;]/tbody[1]/tr[7]/td[1]/table[@class=&quot;InfoBox&quot;]/tbody[1]/tr[1]/td[@class=&quot;HeaderStyle1&quot;]/table[1]/tbody[1]/tr[1]/td[@class=&quot;HeaderStyle1&quot;]</value>
+      <webElementGuid>4e240618-28ff-488e-9b63-8fc12b355431</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>b46ecb85-b8d3-4d04-ae2c-a1a5c1bbae9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How Heard:'])[1]/following::td[4]</value>
+      <webElementGuid>26c2d2db-54f4-4dde-95fd-47c5711dc91c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketing Source:'])[1]/following::td[6]</value>
+      <webElementGuid>0b981b37-ab53-4884-a5f9-dd3a44f548fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy From Account'])[1]/preceding::td[1]</value>
+      <webElementGuid>ec08492a-6108-4344-8412-3815d0998151</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ship To'])[1]/preceding::td[2]</value>
+      <webElementGuid>5e304fb6-1f30-45fc-8fa8-b80a87084ec5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Billing To']/parent::*</value>
+      <webElementGuid>28a2e5df-926b-46c2-95fe-447137dce95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td/table/tbody/tr/td/table/tbody/tr/td</value>
+      <webElementGuid>65a973f2-6f0a-4e27-b8c4-7156c00febf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Billing To
+                                                                            ' or . = 'Billing To
+                                                                            ')]</value>
+      <webElementGuid>32a96d20-8436-49c0-988c-0c79ec8abb4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

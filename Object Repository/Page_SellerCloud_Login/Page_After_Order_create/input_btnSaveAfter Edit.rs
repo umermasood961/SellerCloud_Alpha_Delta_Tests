@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email Address_ctl00ContentPlaceHolder_5caeea</name>
+   <name>input_btnSaveAfter Edit</name>
    <tag></tag>
-   <elementGuidId>528578a3-c5ee-4b2f-b217-13f8d18063de</elementGuidId>
+   <elementGuidId>ed5144f1-d1b9-4570-8f7f-9ac42bea507b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ContentPlaceHolder1_txtEmail']</value>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_btnSave</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ContentPlaceHolder1_txtEmail</value>
+         <key>XPATH</key>
+         <value>//input[@id='ContentPlaceHolder1_btnSave']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bab00588-a137-4c94-86f6-0816c54bd7d1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>ctl00$ContentPlaceHolder1$txtEmail</value>
-      <webElementGuid>467802b5-fd9b-488e-9d0b-b1e99482f03c</webElementGuid>
+      <webElementGuid>7a1d810b-de2c-4cc8-9622-c08032b73457</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>ae3e8f31-2c20-496b-965d-361c88a6921b</webElementGuid>
+      <value>image</value>
+      <webElementGuid>1f97fd8e-ee99-407f-b4b0-199a6a915e60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$btnSave</value>
+      <webElementGuid>9ec814b7-70cf-4708-84eb-18850609f6e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ContentPlaceHolder1_txtEmail</value>
-      <webElementGuid>94499474-d6ca-4e92-b75d-625d24cb1617</webElementGuid>
+      <value>ContentPlaceHolder1_btnSave</value>
+      <webElementGuid>bb873084-47f0-4a5b-8df0-a5b2815adcd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../images/app/SaveOrder.jpg</value>
+      <webElementGuid>0ca8bfe2-1062-4d30-89e7-f05722e689dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>form-text</value>
-      <webElementGuid>3a360d95-089a-4063-902c-0925983c6e35</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>6b5ef8a7-ed82-4839-914c-616864cbc8c6</webElementGuid>
+      <value>hideMe(this);</value>
+      <webElementGuid>0efe7550-c709-47f0-b9ee-5ef3ec6b8ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ContentPlaceHolder1_txtEmail&quot;)</value>
-      <webElementGuid>0cf9d23b-b20b-4c2a-b39c-0a0f40270032</webElementGuid>
+      <value>id(&quot;ContentPlaceHolder1_btnSave&quot;)</value>
+      <webElementGuid>2fceefa1-7739-4c54-88d6-a913f933328b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ContentPlaceHolder1_txtEmail']</value>
-      <webElementGuid>987bc92c-0586-4301-ab92-05e77f96f32a</webElementGuid>
+      <value>//input[@id='ContentPlaceHolder1_btnSave']</value>
+      <webElementGuid>8ced27dc-2b97-405b-acec-e6913c2a9078</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='ContentPlaceHolder1_tblMain']/tbody/tr[4]/td/input</value>
-      <webElementGuid>261441f1-bbc3-43b7-9a1e-3f086aa2dff5</webElementGuid>
+      <value>//tr[@id='ContentPlaceHolder1_trMainRow']/td/table/tbody/tr[6]/td/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>9f92ae4d-8da3-4293-bd18-d3797bbc2a87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td/input</value>
-      <webElementGuid>3df86859-e179-446f-8c0f-4e9ae5c15b15</webElementGuid>
+      <value>//tr[6]/td/table/tbody/tr/td[2]/input</value>
+      <webElementGuid>6d24a700-f0bf-45ba-80f2-a4205fc2f64b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'ctl00$ContentPlaceHolder1$txtEmail' and @type = 'text' and @id = 'ContentPlaceHolder1_txtEmail']</value>
-      <webElementGuid>358e05b9-0891-489b-916c-6c88638ffa82</webElementGuid>
+      <value>//input[@type = 'image' and @name = 'ctl00$ContentPlaceHolder1$btnSave' and @id = 'ContentPlaceHolder1_btnSave' and @src = '../images/app/SaveOrder.jpg']</value>
+      <webElementGuid>2f7f84a9-3d7b-4640-bdcf-05fb13e0f397</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

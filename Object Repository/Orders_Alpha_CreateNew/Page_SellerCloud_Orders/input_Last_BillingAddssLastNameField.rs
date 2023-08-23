@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_ctl00ContentPlaceHolder1txtPwd</name>
+   <name>input_Last_BillingAddssLastNameField</name>
    <tag></tag>
-   <elementGuidId>dc257cfd-d8b1-48a4-8920-74a263c917ae</elementGuidId>
+   <elementGuidId>e90e5f2a-dce4-4d4e-b6e6-e4e12fc6f73a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='ContentPlaceHolder1_txtPwd']</value>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_BillingAddss_LastNameField</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ContentPlaceHolder1_txtPwd</value>
+         <key>XPATH</key>
+         <value>//input[@id='ContentPlaceHolder1_BillingAddss_LastNameField']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6741a64c-fafb-4d83-9f1e-b317269b5356</webElementGuid>
+      <webElementGuid>761d5ca1-68b1-4626-a340-cab413939a55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ctl00$ContentPlaceHolder1$txtPwd</value>
-      <webElementGuid>a1e14351-ee88-43cf-ba9c-99e47fdc1d4b</webElementGuid>
+      <value>ctl00$ContentPlaceHolder1$BillingAddss$LastNameField</value>
+      <webElementGuid>cb983702-2e4a-4855-a749-afb74289468b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>a353e1ae-7270-4af7-9cd7-95b53beb3594</webElementGuid>
+      <value>text</value>
+      <webElementGuid>dc0d1ff8-4991-4e81-8d91-51d15d17cd75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>7e0bf700-0cd9-4a5e-8bae-a0b4224a6503</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ContentPlaceHolder1_txtPwd</value>
-      <webElementGuid>6f4ea494-f82c-4970-8f8d-074ff79e2402</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-text</value>
-      <webElementGuid>4ac8dd76-672d-4f56-8e38-a4ca7d301d70</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
-      <webElementGuid>97d66cff-f287-4daa-b4aa-27fa132aefe0</webElementGuid>
+      <value>ContentPlaceHolder1_BillingAddss_LastNameField</value>
+      <webElementGuid>8be12cb3-70f9-4968-bf86-88ee65f7426b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ContentPlaceHolder1_txtPwd&quot;)</value>
-      <webElementGuid>51aac884-55dc-492b-bbb4-9e42dab463d6</webElementGuid>
+      <value>id(&quot;ContentPlaceHolder1_BillingAddss_LastNameField&quot;)</value>
+      <webElementGuid>74e2a278-481a-450e-8c07-67df3dddafed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='ContentPlaceHolder1_txtPwd']</value>
-      <webElementGuid>2ecb2eb9-8f13-4083-b708-7f4983a109a8</webElementGuid>
+      <value>//input[@id='ContentPlaceHolder1_BillingAddss_LastNameField']</value>
+      <webElementGuid>388ee45f-8e7c-47ab-b2a3-64e05a9c0df4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='ContentPlaceHolder1_tblMain']/tbody/tr[6]/td/input</value>
-      <webElementGuid>0184db8a-d2d8-40a2-8b81-0c2368d96c2f</webElementGuid>
+      <value>//tr[@id='ContentPlaceHolder1_BillingAddss_trNameLast']/td[2]/input</value>
+      <webElementGuid>accabf04-dd38-4d41-93cc-2fe95f952090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td/input</value>
-      <webElementGuid>03db2e69-6506-468e-b2ce-7729bf8d3cb6</webElementGuid>
+      <value>//tr[2]/td/table/tbody/tr[4]/td[2]/input</value>
+      <webElementGuid>2acd3970-9d0f-44e3-b521-709f22ac71b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'ctl00$ContentPlaceHolder1$txtPwd' and @type = 'password' and @id = 'ContentPlaceHolder1_txtPwd']</value>
-      <webElementGuid>d4f0b226-3791-4a52-909c-af733b443591</webElementGuid>
+      <value>//input[@name = 'ctl00$ContentPlaceHolder1$BillingAddss$LastNameField' and @type = 'text' and @id = 'ContentPlaceHolder1_BillingAddss_LastNameField']</value>
+      <webElementGuid>d1657792-2a3d-438c-8fe2-b530c9a4b2f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
