@@ -17,21 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Alpha Basic Tests/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+'This will get the order num after creating the order'
+Order_Num = WebUI.getText(findTestObject('Page_Delete_Order/get order value'))
 
-WebUI.callTestCase(findTestCase('Alpha Basic Tests/Create Order With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
-
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
-
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.click(findTestObject('Page_Delete_Order/a_Manage Orders'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.click(findTestObject('Page_Delete_Order/input_Order_value'))
 
-WebUI.waitForJQueryLoad(0)
+WebUI.setText(findTestObject('Page_Delete_Order/input_Order_value'), Order_Num)
+
+WebUI.click(findTestObject('Page_Delete_Order/input_select_btnSearch'))
+
+WebUI.click(findTestObject('Page_Delete_Order/input_columnSelectCheckBox'))
+
+WebUI.click(findTestObject('Page_Delete_Order/Select_Actionfor_deleteOrder'))
+
+'Add the delete action value here.you can get this by inspecting the element '
+WebUI.selectOptionByValue(findTestObject('Page_Delete_Order/Select_Actionfor_deleteOrder'), '8101', false)
+
+WebUI.click(findTestObject('Page_Delete_Order/input_MarkSelectedGO'))
+
+WebUI.verifyElementText(findTestObject('Page_Delete_Order/matchText_confirm_DeleteOrderTxt'), 'Are you sure you want to delete 1 Orders?')
+
+WebUI.click(findTestObject('Page_Delete_Order/input_ConfirmDelete_ContinueFnlDelete'))
 
