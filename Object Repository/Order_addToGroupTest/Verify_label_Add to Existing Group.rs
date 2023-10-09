@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_label_Add to Existing Group</name>
+   <tag></tag>
+   <elementGuidId>10af299c-d516-4779-b17b-41e85e0595fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlAddToGroup']/table/tbody/tr[2]/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>4302a271-7203-4d7d-851c-c90a43ce3bf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_rdoAddToExistingGroup</value>
+      <webElementGuid>bb6bc1a5-147b-4472-b662-5a63419528de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to Existing Group</value>
+      <webElementGuid>94a6391e-3a49-44cd-af2c-14f50710c019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlAddToGroup&quot;)/table[1]/tbody[1]/tr[2]/td[1]/label[1]</value>
+      <webElementGuid>4d788489-977d-4705-9837-1ffe8be7bf00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlAddToGroup']/table/tbody/tr[2]/td/label</value>
+      <webElementGuid>17680ece-31d7-4b65-9ca0-d2b78cb568d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add orders to Group'])[1]/following::label[1]</value>
+      <webElementGuid>a3f9f084-03c7-4412-b781-5930d805dd36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[2]/following::label[1]</value>
+      <webElementGuid>5a78eb95-b3b9-4619-8ee1-deb62223db4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Group'])[1]/preceding::label[1]</value>
+      <webElementGuid>e772963c-10e8-4dcb-b064-5a40bea8c3ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to Existing Group']/parent::*</value>
+      <webElementGuid>17780840-35ad-49ae-ba49-7151c9dbcf13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>99f1544a-bb38-421f-88be-968865ad4a06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Add to Existing Group' or . = 'Add to Existing Group')]</value>
+      <webElementGuid>4c6a0024-817a-40d1-b001-68d9e43d2e25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,21 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Manage_Order/Create Order_With Product_Alpha 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), 'PrintProductLabels', false)
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.waitForPageLoad(2)
 
-WebUI.waitForPageLoad(5)
+WebUI.click(findTestObject('Label_Print/input_SKU_select'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.waitForAlert(1)
 
-WebUI.waitForJQueryLoad(0)
+WebUI.click(findTestObject('Label_Print/input_UPC_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_FNSKU_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_ASIN_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_Detailed_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_LabelPaper_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_EAN_select'))
+
+WebUI.waitForAlert(1)
+
+WebUI.click(findTestObject('Label_Print/input_GTIN_select'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Order_Verify payment method (Cash)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8cdac4c-2e90-468b-8691-52d1831a2dfd</testCaseGuid>
+</TestCaseEntity>

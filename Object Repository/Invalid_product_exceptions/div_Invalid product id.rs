@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Invalid product id</name>
+   <tag></tag>
+   <elementGuidId>b130570f-3ddd-489c-8113-8569e85922ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[4]/td/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>160ddbd5-22ff-4de4-ada5-a12f20af5277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message</value>
+      <webElementGuid>69a485f3-4967-4710-b289-2265392f1686</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid product id.</value>
+      <webElementGuid>44431188-cb14-4bb4-90e7-a401d6598e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlCreateOrder&quot;)/table[1]/tbody[1]/tr[4]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageError&quot;]/div[@class=&quot;Message&quot;]</value>
+      <webElementGuid>1eac6127-67c3-45a8-9f25-ed241f53fcc5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[4]/td/div/div/div</value>
+      <webElementGuid>7054e126-9376-4d69-9732-0efa30bc72fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Items'])[1]/following::div[3]</value>
+      <webElementGuid>c796463d-c7d5-4b75-b46e-89ecd4a62439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity:'])[1]/following::div[3]</value>
+      <webElementGuid>ef836bbf-c5c2-42d9-b3ed-78b1e73e2484</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Items'])[1]/preceding::div[1]</value>
+      <webElementGuid>8cf0821f-6ee3-487b-a6a7-6c05b3ef23ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SKU'])[1]/preceding::div[1]</value>
+      <webElementGuid>1b525b86-68d9-4c66-a7c8-76fb1bbc50c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invalid product id.']/parent::*</value>
+      <webElementGuid>870ccae0-7d99-4a85-95d7-50c64b4d9efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>6f0b38a6-9bf6-4981-818e-acac4dbb1939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Invalid product id.' or . = 'Invalid product id.')]</value>
+      <webElementGuid>7cf8ada5-0fd7-4bca-8f1b-9e359ab31023</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

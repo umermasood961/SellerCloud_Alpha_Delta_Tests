@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Job Processed</name>
+   <tag></tag>
+   <elementGuidId>fe983dff-9ce6-4721-9d6d-d08443e6dad2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/div/table/tbody/tr[3]/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4014291d-632e-4dd2-a555-4fb8e74175f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message</value>
+      <webElementGuid>576be967-e5f9-46fb-a95b-6d9378148db2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Job Processed</value>
+      <webElementGuid>ad55cfa2-1373-4910-945b-03a8f5875728</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/table[1]/tbody[1]/tr[4]/td[@class=&quot;MiddleColumn&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageInformation&quot;]/div[@class=&quot;Message&quot;]</value>
+      <webElementGuid>f06e807a-5dea-4556-a1b3-eaabeed96ac3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/div/table/tbody/tr[3]/td/div/div/div</value>
+      <webElementGuid>23d6c80d-ef74-4bd0-83c8-d2c7f40d8276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Method Mapping'])[43]/following::div[4]</value>
+      <webElementGuid>60e0d6b3-bb78-4861-9281-7a7badc64031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents'])[45]/following::div[4]</value>
+      <webElementGuid>25662ebb-68dc-4934-a3bc-5250f37d2cab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job ID:'])[1]/preceding::div[1]</value>
+      <webElementGuid>4d9bf4a1-9c99-429e-ba62-a63218dec5b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company:'])[1]/preceding::div[1]</value>
+      <webElementGuid>f8204275-4e65-474c-9fbb-2336b07a5238</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Job Processed']/parent::*</value>
+      <webElementGuid>601f68bb-8606-4c17-b4b5-11df6fcdfdee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>537efc6b-d1ce-4bca-93a5-5ae16d021a65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Job Processed' or . = 'Job Processed')]</value>
+      <webElementGuid>cdac6e8e-804d-4579-9464-6ec633935fd3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

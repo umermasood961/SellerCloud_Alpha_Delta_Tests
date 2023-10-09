@@ -17,21 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Manage_Order/Create Order_With Product_Alpha 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), '5001', false)
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.waitForPageLoad(2)
 
-WebUI.waitForPageLoad(5)
+WebUI.click(findTestObject('Split_Order/input_SelectCheckBox'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.click(findTestObject('Split_Order/input_QtyToMove'))
 
-WebUI.waitForJQueryLoad(0)
+WebUI.setText(findTestObject('Split_Order/input_QtyToMove'), '3')
 
+WebUI.click(findTestObject('Split_Order/input_btnSplitOrder'))
+
+WebUI.getText(findTestObject('Split_Order/div_Output'))
+
+WebUI.click(findTestObject('Split_Order/a_Order_ID_open'))
+
+WebUI.waitForPageLoad(2)
+
+WebUI.getText(findTestObject('Split_Order/OrderSplitedRslt'))

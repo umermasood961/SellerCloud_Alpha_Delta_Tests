@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Order_Verify payment method (COD)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27e3f901-b582-47f6-b4a5-16c817f9ecaf</testCaseGuid>
+</TestCaseEntity>

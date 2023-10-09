@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Div_unshipNotification</name>
+   <tag></tag>
+   <elementGuidId>f4296633-e998-42d7-acc3-7c5eb79b8ed1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>618d60f0-ee90-4a09-95da-5aa0c0224a10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You are about to mark Order 5074141 as unshipped. This action can not be undone.</value>
+      <webElementGuid>6eb909bc-6d44-4b4b-82bf-ba57b2247550</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/table[1]/tbody[1]/tr[4]/td[@class=&quot;MiddleColumn&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/i[1]</value>
+      <webElementGuid>bc0001dd-a960-449c-a6a0-ddf9e4a2a90b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/i</value>
+      <webElementGuid>12339153-ce7c-4061-8b40-970b5ecd11c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unship Order'])[1]/following::i[1]</value>
+      <webElementGuid>4127403a-df8a-472c-8d9f-e87c3c8a0793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[3]/following::i[1]</value>
+      <webElementGuid>52a0055f-371c-4362-96df-a4a063c883d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::i[1]</value>
+      <webElementGuid>4ef934fd-2659-4877-8186-75ad1aa33410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::i[1]</value>
+      <webElementGuid>e99362ce-5be6-4aba-a2e3-42ce18d4e04f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You are about to mark Order 5074141 as unshipped. This action can not be undone.']/parent::*</value>
+      <webElementGuid>30948414-f61d-460f-8a2e-7f4491bd57e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>edbdd884-86ef-44ea-a5b2-6fe5ab1890e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//i[(text() = 'You are about to mark Order 5074141 as unshipped. This action can not be undone.' or . = 'You are about to mark Order 5074141 as unshipped. This action can not be undone.')]</value>
+      <webElementGuid>2fec668f-5f83-4298-802f-80563dc370e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

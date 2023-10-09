@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_getMsg</name>
+   <tag></tag>
+   <elementGuidId>ac1f77fb-e7c0-4d7a-8739-14a4ae4f3da0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlSettings']/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ef4593ca-0646-4e49-bca5-583bf2a866d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message</value>
+      <webElementGuid>86d9bbc6-45c0-42d6-83c2-b3376622872a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Selected orders can now ship without payment. </value>
+      <webElementGuid>1348a72c-5125-4c4e-bdea-bfa81a3b1725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlSettings&quot;)/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[2]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageInformation&quot;]/div[@class=&quot;Message&quot;]</value>
+      <webElementGuid>3ab5aca1-5ad7-461c-9c21-dbaa6f683bf7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlSettings']/table/tbody/tr/td/table/tbody/tr[2]/td/div/div/div</value>
+      <webElementGuid>2e397a4a-b5ca-465b-b269-f8f22f0f2662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saved Searches'])[6]/following::div[4]</value>
+      <webElementGuid>da3c9854-5f61-4a8c-8fe4-0007f595842d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyword'])[1]/preceding::div[1]</value>
+      <webElementGuid>8bb191ea-16fd-4eb7-98b3-de9ad658f206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SKU'])[1]/preceding::div[1]</value>
+      <webElementGuid>f26c0dcc-6491-4f83-bc01-89de72eee525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Selected orders can now ship without payment.']/parent::*</value>
+      <webElementGuid>0a76edc4-4c3d-4217-822d-27d46e87c7a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>5b83ec2a-b719-47dc-a0b5-7fb8607545a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Selected orders can now ship without payment. ' or . = ' Selected orders can now ship without payment. ')]</value>
+      <webElementGuid>936ffd2a-3d32-4c3b-af7c-2055dffdd029</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

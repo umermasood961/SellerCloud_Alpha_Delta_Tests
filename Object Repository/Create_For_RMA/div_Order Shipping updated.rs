@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Order Shipping updated</name>
+   <tag></tag>
+   <elementGuidId>e4714172-eb4d-46a6-b231-d0caa10cb6bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divMain']/table/tbody/tr/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3dbea665-bd04-4d82-82bd-84395b6295e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message</value>
+      <webElementGuid>e8739529-55e1-4722-a8bd-50e83cd958b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order Shipping updated.</value>
+      <webElementGuid>a91e9b0f-a98d-4026-8e9e-37b1ce915646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMain&quot;)/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageInformation&quot;]/div[@class=&quot;Message&quot;]</value>
+      <webElementGuid>bf8e3f2b-c6da-46b1-8b38-72e0a94e6189</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMain']/table/tbody/tr/td/div/div/div</value>
+      <webElementGuid>4ac801c2-1799-48b6-9b95-8d8282d47431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ship Order'])[1]/following::div[4]</value>
+      <webElementGuid>b90cc841-9370-4fc1-80c6-d6ede9fc977f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[3]/following::div[4]</value>
+      <webElementGuid>8802c2b9-05d8-460a-a3ba-ba5f64b36d60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Shipping Packages'])[1]/preceding::div[1]</value>
+      <webElementGuid>06a15e5a-95ec-49d6-80f3-f4657ea62429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Order Shipping updated.']/parent::*</value>
+      <webElementGuid>393069a2-db02-46f3-b17f-5a6b7d313abd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>ab7e56a0-d55a-4a0b-83e1-79c1ea2cdc13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Order Shipping updated.' or . = 'Order Shipping updated.')]</value>
+      <webElementGuid>ee882567-1c60-429d-a96e-6db097f120c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

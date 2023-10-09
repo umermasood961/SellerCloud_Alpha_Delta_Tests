@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Client Settings</name>
+   <tag></tag>
+   <elementGuidId>44395b57-e789-4954-8d71-2d2f89e7f213</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='TopSubMenu1_pnlMenu']/a[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>829d2791-75ed-4759-8534-9d5906f12a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>ClientSetting.aspx</value>
+      <webElementGuid>52669643-51b0-4ff6-9ad2-cb1fc3f07f81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Client Settings</value>
+      <webElementGuid>22321885-66e2-4963-8f0f-d3493ad3fbc0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TopSubMenu1_pnlMenu&quot;)/a[7]</value>
+      <webElementGuid>9ebaf3b1-4139-456e-9210-031a8ca26055</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='TopSubMenu1_pnlMenu']/a[7]</value>
+      <webElementGuid>0548e6c2-830e-4d93-9a3e-7affcf814e3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Client Settings')]</value>
+      <webElementGuid>20513648-66f0-40a4-b110-3419db8675e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Channel Refund Reasons'])[2]/following::a[1]</value>
+      <webElementGuid>b1a7cf10-2fd1-4ada-9ab6-551bfc573acd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Channel Credential Alert Log'])[2]/following::a[2]</value>
+      <webElementGuid>501d84b7-a4cd-46c4-8680-c4f14e638ba6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Custom Column Settings'])[2]/preceding::a[1]</value>
+      <webElementGuid>1474dcea-2db5-4d71-84f2-d7b9130d1f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Custom Pages'])[3]/preceding::a[2]</value>
+      <webElementGuid>f48de510-3817-4d68-bd62-6787e7adaa59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'ClientSetting.aspx')])[2]</value>
+      <webElementGuid>9a556edb-b5f6-4745-9da6-a45da3719bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[7]</value>
+      <webElementGuid>80397d8d-4db7-4e3f-8732-4d9cde7ebac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'ClientSetting.aspx' and (text() = 'Client Settings' or . = 'Client Settings')]</value>
+      <webElementGuid>afea5709-5ec9-4b0c-a59b-82fcee6322b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

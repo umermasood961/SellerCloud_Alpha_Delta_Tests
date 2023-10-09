@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Clear Taxes</name>
+   <tag></tag>
+   <elementGuidId>ffc0a304-760b-4fb6-9ad8-31dff0b1f019</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ContentPlaceHolder1_btnClearTaxes']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_btnClearTaxes</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>85d7867b-7fdc-40c6-b170-ebccf8c0289b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm('Are you sure you want to clear all taxes from order?\nThis action is not reversable.');</value>
+      <webElementGuid>fa628c70-d954-49b9-9033-dfca9f5e1801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_btnClearTaxes</value>
+      <webElementGuid>5be81973-4ab4-47f0-9db0-3f9a4e9cd38d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnClearTaxes&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))</value>
+      <webElementGuid>27ab2a32-157b-41bb-9c91-fc8db980386f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clear Taxes</value>
+      <webElementGuid>2c0c5ca3-a41c-435a-a937-a7d729ce4392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_btnClearTaxes&quot;)</value>
+      <webElementGuid>b3cbf78c-48b3-4181-be99-63b12bbd4e3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ContentPlaceHolder1_btnClearTaxes']</value>
+      <webElementGuid>5fa40c7a-b86f-4522-9e3c-9e9b4832a2ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='ContentPlaceHolder1_trMainRow']/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr[3]/td[2]/a</value>
+      <webElementGuid>75a28ad8-2736-448d-bc7a-6ff3809fefcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Clear Taxes')]</value>
+      <webElementGuid>309aa37e-ba0d-42c2-b23c-1046d41e6ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Tax rate:'])[1]/following::a[1]</value>
+      <webElementGuid>04f107f0-9e65-414d-a00b-a0a0f9ef933c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax Override &amp; Addresses'])[1]/following::a[1]</value>
+      <webElementGuid>68151c1d-fda1-414c-9901-a0bd0094f573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Force Re-Calc Taxes'])[1]/preceding::a[1]</value>
+      <webElementGuid>acbb9f22-c5ae-44ef-a1f7-c8ffc3dbb6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax Rate (override):'])[1]/preceding::a[2]</value>
+      <webElementGuid>0502350f-3bb6-4ba5-bb1d-976dd909e110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Clear Taxes']/parent::*</value>
+      <webElementGuid>1807204b-b75a-4947-8ad6-05d29d2da9fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnClearTaxes&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))')]</value>
+      <webElementGuid>e7077d98-fb11-44b0-8237-d0d34ea79fbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td/table/tbody/tr[3]/td[2]/a</value>
+      <webElementGuid>35c7ae19-7434-4d09-ada3-441b6bde63df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ContentPlaceHolder1_btnClearTaxes' and @href = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnClearTaxes&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))' and (text() = 'Clear Taxes' or . = 'Clear Taxes')]</value>
+      <webElementGuid>cc668eba-b39a-4c78-b1b2-0bd4e88cc275</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

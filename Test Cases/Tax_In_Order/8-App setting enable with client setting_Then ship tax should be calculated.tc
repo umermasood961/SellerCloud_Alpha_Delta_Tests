@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>8-App setting enable with client setting_Then ship tax should be calculated</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fdc884ff-3757-4f66-8c95-26641b6e6ca4</testCaseGuid>
+</TestCaseEntity>

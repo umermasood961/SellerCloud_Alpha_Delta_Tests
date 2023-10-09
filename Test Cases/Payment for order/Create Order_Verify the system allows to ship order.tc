@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Order_Verify the system allows to ship order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46046e5a-e5f1-45f3-9f31-35c7cce4c1c8</testCaseGuid>
+</TestCaseEntity>

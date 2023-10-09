@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9d-Manage Order_Create RMA for one product out of two from one order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04164974-3976-4c1a-8810-9de22f18f260</testCaseGuid>
+</TestCaseEntity>

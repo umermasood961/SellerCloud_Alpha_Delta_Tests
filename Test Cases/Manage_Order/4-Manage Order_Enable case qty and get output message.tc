@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4-Manage Order_Enable case qty and get output message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>239330f6-4bbc-442e-9ac2-7d2a00b83037</testCaseGuid>
+</TestCaseEntity>

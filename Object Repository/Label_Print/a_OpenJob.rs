@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_OpenJob</name>
+   <tag></tag>
+   <elementGuidId>ef591469-4190-4acf-8f9d-d486c2cce960</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1f2fc91f-cb18-4e02-ba4c-59320e09ca70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/Settings/QueuedJob.aspx?JobID=95719&amp;MerchantID=1179</value>
+      <webElementGuid>87efd739-0eb9-4825-9a2a-e4fac0554af6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Job # 95719. Click here To monitor Schedule</value>
+      <webElementGuid>08fbecf1-d53f-4321-9afb-84c300ad1fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/table[1]/tbody[1]/tr[4]/td[@class=&quot;MiddleColumn&quot;]/table[1]/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageInformation&quot;]/div[@class=&quot;Message&quot;]/a[1]</value>
+      <webElementGuid>27df8a5f-daef-4633-b7af-72ae086e6689</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/div/div/div/a</value>
+      <webElementGuid>b63db8a0-660b-49ca-8f5a-90f5f88b1c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Job # 95719. Click here To monitor Schedule')]</value>
+      <webElementGuid>4662fd79-e1b9-4aef-893f-9f5777ce27ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Print Product Labels'])[1]/following::a[2]</value>
+      <webElementGuid>8bf30716-a19e-4ff6-8d5e-828888107da8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ProductID'])[1]/preceding::a[1]</value>
+      <webElementGuid>b44130f5-b2a8-472e-aca0-371cc0bdfd0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Name'])[1]/preceding::a[2]</value>
+      <webElementGuid>cfa39f30-3f38-42ef-8a12-724ddccd7fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Job # 95719. Click here To monitor Schedule']/parent::*</value>
+      <webElementGuid>f421ca20-0562-4817-aad2-675e5234179e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/Settings/QueuedJob.aspx?JobID=95719&amp;MerchantID=1179')]</value>
+      <webElementGuid>79785002-99c8-4727-8f59-0bdbb0ae4d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/a</value>
+      <webElementGuid>af9c740a-5c6b-41a7-bb05-d979e4e3b6f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/Settings/QueuedJob.aspx?JobID=95719&amp;MerchantID=1179' and (text() = 'Job # 95719. Click here To monitor Schedule' or . = 'Job # 95719. Click here To monitor Schedule')]</value>
+      <webElementGuid>00543d75-48e6-45b1-a361-c9982f3be800</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

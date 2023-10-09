@@ -19,19 +19,48 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Orders'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/span_Manage_Orders_chk'), 'Manage Orders')
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Pick_list/input_btnSearch'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.waitForJQueryLoad(2)
+
+WebUI.click(findTestObject('Pick_list/input_selectOrd1'))
+
+WebUI.click(findTestObject('Pick_list/input_selectOrd2'))
+
+WebUI.click(findTestObject('Pick_list/input_selectOrd3'))
+
+WebUI.click(findTestObject('Pick_list/select_SelectActionBtn'))
+
+WebUI.selectOptionByValue(findTestObject('Pick_list/select_SelectActionBtn'), '8105', false)
+
+WebUI.click(findTestObject('Pick_list/input_GoActionBtn'))
+
+WebUI.waitForPageLoad(3)
+
+WebUI.click(findTestObject('Pick_list/input_PicklistTitle'))
+
+WebUI.setText(findTestObject('Pick_list/input_PicklistTitle'), 'Dummylist')
+
+WebUI.click(findTestObject('Pick_list/input_ContinueGenerateBtn'))
+
+WebUI.click(findTestObject('Pick_list/a_Job_ClickonSJob'))
 
 WebUI.waitForPageLoad(5)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+Get_URL = WebUI.getUrl()
 
-WebUI.waitForJQueryLoad(0)
+WebUI.navigateToUrl(Get_URL + "&showexecute=1")
 
+WebUI.waitForPageLoad(3)
+
+WebUI.click(findTestObject('Pick_list/input_btnProcessJob'))
+
+WebUI.click(findTestObject('Pick_list/a_Show Pick List'))
+
+WebUI.switchToWindowIndex(1)
+
+Resutl = WebUI.getText(findTestObject('Pick_list/span_picklistDtl'))

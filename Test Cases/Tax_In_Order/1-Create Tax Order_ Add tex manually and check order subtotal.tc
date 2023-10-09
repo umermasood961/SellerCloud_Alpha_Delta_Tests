@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1-Create Tax Order_ Add tex manually and check order subtotal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e6e72e1-821c-44d9-89e0-e048a8ca14db</testCaseGuid>
+</TestCaseEntity>

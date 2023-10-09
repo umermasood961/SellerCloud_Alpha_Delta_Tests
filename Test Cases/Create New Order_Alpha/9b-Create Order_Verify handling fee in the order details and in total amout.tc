@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9b-Create Order_Verify handling fee in the order details and in total amout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fefeff8-1da2-474c-a1fd-0562b33bcac6</testCaseGuid>
+</TestCaseEntity>

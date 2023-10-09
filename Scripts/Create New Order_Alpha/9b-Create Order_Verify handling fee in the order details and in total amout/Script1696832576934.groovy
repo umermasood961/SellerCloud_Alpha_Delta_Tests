@@ -90,80 +90,61 @@ WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_SellerClou
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '090078601')
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '09007860123')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Copy_Billing_ShitTo'))
 
 WebUI.waitForPageLoad(2)
 
-WebUI.scrollToElement(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), 
-    0)
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Customer Instructions_txtCustomerInstructions_OtherInfo'))
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Customer Instructions_txtCustomerInstructions_OtherInfo'), 
-    'cover with good hands')
+'add 1 product id here'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'), '#6')
 
-'if you want to change the rating then open the object and change the value according to rating'
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Rating_rating_Rtng'))
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'))
+'add product qty for test'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'), '2')
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'), 'Lorem Ipsum')
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_btnAddItemToOrder'))
 
-WebUI.scrollToElement(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/td_Shipping Method'), 0)
+WebUI.scrollToElement(findTestObject('Page_HandlingFee/input_UnitPriceProduct'), 0)
 
-WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/td_Shipping Method'), 'Shipping Method')
+WebUI.click(findTestObject('Page_HandlingFee/input_UnitPriceProduct'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'))
+WebUI.setText(findTestObject('Page_HandlingFee/input_UnitPriceProduct'), '')
 
-'add carrier name here\r\n'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'), 'Amazon', 
-    false)
+WebUI.setText(findTestObject('Page_HandlingFee/input_UnitPriceProduct'), '5')
 
-WebUI.waitForJQueryLoad(0)
+WebUI.click(findTestObject('Page_HandlingFee/input_btnCreateOrder_SaveOrder'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_method_after_carriername_select'))
+WebUI.waitForPageLoad(2)
 
-'add carrier method here'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_method_after_carriername_select'), 
-    'AmazonMerchantFulfillment', false)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightLbs'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), '5000', false)
 
-'add weight in Lbs'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightLbs'), '3')
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightOz'))
+WebUI.waitForPageLoad(2)
 
-'add weight in Oz'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightOz'), '6')
+WebUI.scrollToElement(findTestObject('Page_HandlingFee/Subtotal'), 0)
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Price_txtShippingCost'))
+'Sub_Total'
+Sub_Total = WebUI.getText(findTestObject('Page_HandlingFee/Subtotal'), FailureHandling.STOP_ON_FAILURE)
 
-'add shipping cost price here'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Price_txtShippingCost'), '1.8')
+WebUI.scrollToElement(findTestObject('Page_HandlingFee/input_txtHandlingFee'), 0)
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Promise Date_txtShippingPromisedate'))
+WebUI.click(findTestObject('Page_HandlingFee/input_txtHandlingFee'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Promise Date_txtShippingPromisedate'), 
-    '12/30/2023 12:00 AM')
+WebUI.setText(findTestObject('Page_HandlingFee/input_txtHandlingFee'), '3')
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_txtEstimatedDeliveryDate'))
+WebUI.click(findTestObject('Page_HandlingFee/input_SaveNCalcualte'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_txtEstimatedDeliveryDate'), '11/30/2023 12:00 AM')
+WebUI.scrollToElement(findTestObject('Page_HandlingFee/GrandTotoal'), 0)
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'))
-
-'find payment method by inspecting the payment method'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'), '30', 
-    false)
-
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/input_Refresh_Totals_btnCreateOrder_SaveOrder'))
-
-WebUI.waitForPageLoad(5)
-
-WebUI.getText(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/span_get ordernumber'))
-
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Delete Order_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+'AfterHandlingfee'
+AfterHandlingfee = WebUI.getText(findTestObject('Page_HandlingFee/GrandTotoal'))
 

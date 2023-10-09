@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Order_Check shipping amount is added in grand total</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d65d25a-0e77-439c-93c1-d7972a65f54f</testCaseGuid>
+</TestCaseEntity>

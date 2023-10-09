@@ -17,21 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Manage_Order/Create Order_With Product_Alpha 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), 'AddToOrderGroup', false)
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.waitForPageLoad(2)
 
-WebUI.waitForPageLoad(5)
+WebUI.verifyElementPresent(findTestObject('Order_addToGroupTest/Verify_label_Add to Existing Group'), 0)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.verifyElementPresent(findTestObject('Order_addToGroupTest/Verify_label_Create New Group'), 0)
 
-WebUI.waitForJQueryLoad(0)
+WebUI.click(findTestObject('Order_addToGroupTest/input_GroupType_Select_Opt'))
 
+WebUI.click(findTestObject('Order_addToGroupTest/input_NewGroupName'))
+
+WebUI.setText(findTestObject('Order_addToGroupTest/input_NewGroupName'), 'Dummy Test')
+
+WebUI.click(findTestObject('Order_addToGroupTest/input_btnSave'))
+
+WebUI.waitForPageLoad(2)
+
+Success_result = WebUI.getText(findTestObject('Order_addToGroupTest/Verify_div_1 orders moved to group NM'))

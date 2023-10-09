@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verifylabel_Do not charge tax on shipping</name>
+   <tag></tag>
+   <elementGuidId>374c005b-741d-4009-8673-f09c76d8ed55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_ContentPlaceHolder1_pnlTaxDetails']/table/tbody/tr[6]/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>9653929d-f8d6-40f4-94e6-a191f7e0ecc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_ContentPlaceHolder1_chkDoNotChargeTaxOnShipping</value>
+      <webElementGuid>9b9cb719-e6c7-4591-af93-4e16240e956c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do not charge tax on shipping</value>
+      <webElementGuid>add03150-0330-42f4-afcb-c9afc3ee2b34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_ContentPlaceHolder1_pnlTaxDetails&quot;)/table[1]/tbody[1]/tr[6]/td[1]/label[1]</value>
+      <webElementGuid>877b9db6-5cdc-431f-a756-88d046bfe114</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_ContentPlaceHolder1_pnlTaxDetails']/table/tbody/tr[6]/td/label</value>
+      <webElementGuid>224556eb-01dc-4603-9611-aff67c9c0cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rate:'])[1]/following::label[1]</value>
+      <webElementGuid>db014bf0-56af-4af7-aa50-f15f64083878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip/Postal Code:'])[1]/following::label[1]</value>
+      <webElementGuid>f91a73d3-7711-4886-872e-a7473e40ed3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[1]</value>
+      <webElementGuid>f359c76d-23fa-44de-bd6f-de283e5f123d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::label[1]</value>
+      <webElementGuid>1b689730-ade0-4de5-9be3-384d6f5a33af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do not charge tax on shipping']/parent::*</value>
+      <webElementGuid>39f6bc21-a85a-4d51-b853-fb811ab9b680</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>88b16bdd-e6fa-40f1-a820-d07d55bd0305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Do not charge tax on shipping' or . = 'Do not charge tax on shipping')]</value>
+      <webElementGuid>f6f32db7-0341-4572-aa2f-fad22be17115</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

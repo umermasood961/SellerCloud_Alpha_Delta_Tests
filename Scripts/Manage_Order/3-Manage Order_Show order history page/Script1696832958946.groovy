@@ -17,21 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Manage_Order/Create Order_With Product_Alpha 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('Adress_Updates/Page_History/input_btnShowHistory2'), 0)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.click(findTestObject('Adress_Updates/Page_History/input_btnShowHistory2'))
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.switchToWindowIndex(1)
 
-WebUI.waitForPageLoad(5)
+Get_info = WebUI.scrollToElement(findTestObject('Adress_Updates/Page_History/div_Get_items_pages'), 0)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.getText(findTestObject('Adress_Updates/Page_History/div_Get_items_pages'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForJQueryLoad(0)
+WebUI.verifyElementClickable(findTestObject('Adress_Updates/Page_History/input_btnClose'))
 

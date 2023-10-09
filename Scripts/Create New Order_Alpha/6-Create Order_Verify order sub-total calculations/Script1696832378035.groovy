@@ -90,7 +90,7 @@ WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_SellerClou
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '090078601')
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '0900-78601-23')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Copy_Billing_ShitTo'))
 
@@ -111,59 +111,47 @@ WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/texta
 
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'), 'Lorem Ipsum')
 
-WebUI.scrollToElement(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/td_Shipping Method'), 0)
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'))
 
-WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/td_Shipping Method'), 'Shipping Method')
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'))
+'add 1 product id here'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'), 'AIRCONDI-AQ3-456-B-Black-44')
 
-'add carrier name here\r\n'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'), 'Amazon', 
-    false)
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'))
 
-WebUI.waitForJQueryLoad(0)
+'add product qty for test'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'), '2')
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_method_after_carriername_select'))
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_btnAddItemToOrder'))
 
-'add carrier method here'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_method_after_carriername_select'), 
-    'AmazonMerchantFulfillment', false)
+'add 2nd product id here'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_ProductId_ForOrder_Product'), 'AIRCONDI')
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightLbs'))
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'))
 
-'add weight in Lbs'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightLbs'), '3')
+'add product qty for test'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_ForOrder_ProductQty'), '2')
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightOz'))
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Quantity_btnAddItemToOrder'))
 
-'add weight in Oz'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_lboz_txtWeightOz'), '6')
+'add discount in 1 product'
+WebUI.click(findTestObject('Calculations verifications/discounts/add 1 disc'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Price_txtShippingCost'))
+'add discount in 1 product'
+WebUI.setText(findTestObject('Calculations verifications/discounts/add 1 disc'), '1')
 
-'add shipping cost price here'
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Price_txtShippingCost'), '1.8')
+WebUI.click(findTestObject('Calculations verifications/discounts/add 2 disc'))
 
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Promise Date_txtShippingPromisedate'))
-
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_Shipping Promise Date_txtShippingPromisedate'), 
-    '12/30/2023 12:00 AM')
-
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_txtEstimatedDeliveryDate'))
-
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_txtEstimatedDeliveryDate'), '11/30/2023 12:00 AM')
-
-WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'))
-
-'find payment method by inspecting the payment method'
-WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'), '30', 
-    false)
+WebUI.setText(findTestObject('Calculations verifications/discounts/add 2 disc'), '1')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/input_Refresh_Totals_btnCreateOrder_SaveOrder'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/span_get ordernumber'))
+WebUI.click(findTestObject('Calculations verifications/SubTotal'))
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Delete Order_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+subtotal = WebUI.getText(findTestObject('Calculations verifications/SubTotal'))
+
+ordercompletetotal = WebUI.getText(findTestObject('Calculations verifications/order complete total'))
 

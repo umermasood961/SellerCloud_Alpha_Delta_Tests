@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Generate picklist_Select orders and create picklist and confirm total</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c242f880-df14-49d5-bd82-ad420bcceed2</testCaseGuid>
+</TestCaseEntity>

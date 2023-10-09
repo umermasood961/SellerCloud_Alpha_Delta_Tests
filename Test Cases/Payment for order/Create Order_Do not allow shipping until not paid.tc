@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Order_Do not allow shipping until not paid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e970cda5-c769-4064-8841-78ddd4b1aba7</testCaseGuid>
+</TestCaseEntity>

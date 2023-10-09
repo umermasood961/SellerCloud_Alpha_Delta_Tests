@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9f-Create Order_Verify shiping discount added, grand amount should be changed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3deeda1a-674e-46c0-8c75-671fcfa36460</testCaseGuid>
+</TestCaseEntity>

@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/selec
 WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/select_Company_frst'), '164', false)
 
 WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/td_This order is Sample Order'), 
-    'This order is Sample Order')
+'This order is Sample Order')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_chkIsSampleOrder'))
 
@@ -43,7 +43,7 @@ WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Email_txtUserName_UA'))
 
-'give dummy Email address'
+'Give dummy Email address'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Email_txtUserName_UA'), 'Dummyperson123@mysite.com')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_UserFirstName_UA'))
@@ -90,7 +90,7 @@ WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_SellerClou
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '090078601')
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '0900-78601-23')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Copy_Billing_ShitTo'))
 
@@ -164,6 +164,4 @@ WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/input_Refr
 WebUI.waitForPageLoad(5)
 
 WebUI.getText(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/span_get ordernumber'))
-
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Delete Order_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
 

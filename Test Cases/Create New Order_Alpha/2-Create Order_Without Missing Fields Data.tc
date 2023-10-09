@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Without Missing fileds we get the error in response</description>
+   <name>2-Create Order_Without Missing Fields Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>472e1799-8042-4b89-800e-d608f395efb5</testCaseGuid>
+</TestCaseEntity>

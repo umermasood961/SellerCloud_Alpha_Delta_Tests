@@ -48,49 +48,58 @@ WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/inp
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_UserFirstName_UA'))
 
+'First Name Input'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_UserFirstName_UA'), 'Dummy')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_txtUserLastName_UA'))
 
+'Last Name Input'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_txtUserLastName_UA'), 'Person')
 
 WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/td_Billing_To_BT'), 'Billing To')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Company_BillingAddssCompanyField'))
 
+'Billing_Company Name Input'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Company_BillingAddssCompanyField'), 'Testing Co')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_First_BillingAddssFirstNameField'))
 
+'Billing_Billing First Name'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_First_BillingAddssFirstNameField'), 'Testing')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Last_BillingAddssLastNameField'))
 
+'Billing_Billing Last Name'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Last_BillingAddssLastNameField'), 'Purpose')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Address_ShippingAddressStreet1Field'))
 
-'Dummy Address'
+'Billing_Input Dummy Address here'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Address_ShippingAddressStreet1Field'), 
     '5331 Rexford Court, Montgomery AL 36116')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_CityBillingAddssCityField'))
 
+'Billing_Dummy City '
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_CityBillingAddssCityField'), 'DummyCityTown')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_StateZip_BillingAddssPostalCodeField'))
 
+'Billing_ZipCode'
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_StateZip_BillingAddssPostalCodeField'), 
     '6541230')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/select_Country_BillingAddss'))
 
+'Billing_Country'
 WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/select_Country_BillingAddss'), 
     'US', false)
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '090078601')
+'Billing_PhoneNumber'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Phone_BillingAddssPhoneField'), '09007860123')
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Copy_Billing_ShitTo'))
 
@@ -104,12 +113,13 @@ WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input
 WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Customer Instructions_txtCustomerInstructions_OtherInfo'), 
     'cover with good hands')
 
-'if you want to change the rating then open the object and change the value according to rating'
+'If you want to set rating then open the object and change the value according to rating.'
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/input_Rating_rating_Rtng'))
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'))
 
-WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'), 'Lorem Ipsum')
+'OtherInfo_OrderNotes'
+WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/textarea_Order Notes_1tbOrderNotes'), 'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum ')
 
 WebUI.scrollToElement(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/td_Shipping Method'), 0)
 
@@ -117,7 +127,7 @@ WebUI.verifyElementText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mth
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'))
 
-'add carrier name here\r\n'
+'ShippingMethod_Add carrier name here\r\n'
 WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/select_carrier_NameComp_select'), 'Amazon', 
     false)
 
@@ -155,7 +165,7 @@ WebUI.setText(findTestObject('Orders_Alpha_CreateNew/Page_Shipping_Mthd/input_tx
 
 WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'))
 
-'find payment method by inspecting the payment method'
+'Find payment method by inspecting the payment method'
 WebUI.selectOptionByValue(findTestObject('Orders_Alpha_CreateNew/Page_Payment_infor/select_Payment_mthd_for_payment'), '30', 
     false)
 
@@ -165,5 +175,10 @@ WebUI.waitForPageLoad(5)
 
 WebUI.getText(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/span_get ordernumber'))
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Delete Order_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+'This will verify that given values are present on the order details page.'
+WebUI.verifyTextPresent('Dummyperson123@mysite.com', false)
+
+WebUI.verifyTextPresent('5331 Rexford Court, Montgomery AL 36116', false)
+
+WebUI.verifyTextPresent('09007860123', false)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9-Manage Order_Remove order from order group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bee43e7-b136-4b49-86b7-6d221d8b0d05</testCaseGuid>
+</TestCaseEntity>

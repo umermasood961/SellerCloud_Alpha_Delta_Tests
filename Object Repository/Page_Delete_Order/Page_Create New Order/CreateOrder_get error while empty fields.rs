@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CreateOrder_get error while empty fields</name>
+   <tag></tag>
+   <elementGuidId>ffe5bc0d-f7f1-4361-a388-a65d59d03553</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[4]/td/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Message</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>896f4396-48e4-4007-8bee-27e10eb6c2eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message</value>
+      <webElementGuid>1b6fb935-6d5c-43d1-8fff-f519d714ec44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter complete billing address.Please enter complete shipping address.</value>
+      <webElementGuid>4d672547-efd6-42b2-9b4e-5eaa34a50517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlCreateOrder&quot;)/table[1]/tbody[1]/tr[4]/td[1]/div[@class=&quot;WebPageMessage&quot;]/div[@class=&quot;WebPageMessageError&quot;]/div[@class=&quot;Message&quot;]</value>
+      <webElementGuid>8ab33af7-1712-4e1e-8170-5c9ece3dc0bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlCreateOrder']/table/tbody/tr[4]/td/div/div/div</value>
+      <webElementGuid>a2de0346-c6c6-4f94-887f-2ae0fbaa21e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Items'])[1]/following::div[3]</value>
+      <webElementGuid>0da508d4-37b0-43ab-a8e3-aa8dca51d1c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity:'])[1]/following::div[3]</value>
+      <webElementGuid>6ea39a65-c655-4335-ae5a-0712750ff445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Items'])[1]/preceding::div[1]</value>
+      <webElementGuid>e4b84ae7-b82a-4639-b4eb-6b4f51f8cadc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SKU'])[1]/preceding::div[1]</value>
+      <webElementGuid>a701282b-6a18-450b-9ef9-345286afb3bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please enter complete billing address.']/parent::*</value>
+      <webElementGuid>d38a0c75-8cc7-45fa-bea6-c0576343121f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>a48ba798-97f0-4866-9e9c-395d90f568a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Please enter complete billing address.Please enter complete shipping address.' or . = 'Please enter complete billing address.Please enter complete shipping address.')]</value>
+      <webElementGuid>14fdd5fe-14a0-469f-90aa-d3cb9eb17b2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

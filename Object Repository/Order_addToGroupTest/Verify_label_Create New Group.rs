@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_label_Create New Group</name>
+   <tag></tag>
+   <elementGuidId>39368ea5-e191-4b33-9c95-bead6af2e176</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ContentPlaceHolder1_pnlAddToGroup']/table/tbody/tr[4]/td/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>dd6d75c5-4cda-41bf-ab35-4ec73fcac7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_rdoCreateNewGroup</value>
+      <webElementGuid>b31bc1c4-e3dc-47a3-b323-e1d926215fa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create New Group</value>
+      <webElementGuid>2e8110fe-53f4-4761-aab0-0c075aa3400b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_pnlAddToGroup&quot;)/table[1]/tbody[1]/tr[4]/td[1]/label[1]</value>
+      <webElementGuid>3b8b3322-56b8-451d-a223-9f4b88886091</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlAddToGroup']/table/tbody/tr[4]/td/label</value>
+      <webElementGuid>48984535-1e51-4c72-982d-decf659f9a51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Existing Group'])[1]/following::label[1]</value>
+      <webElementGuid>635a7bdd-ca0a-461f-9172-9f2fd2cdd2ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Group Name:'])[1]/preceding::label[1]</value>
+      <webElementGuid>a6273299-4eba-4f6b-9135-0521ec994c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::label[1]</value>
+      <webElementGuid>b3e2ef2e-78ad-4e3a-9db3-3f004ca47075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create New Group']/parent::*</value>
+      <webElementGuid>ec0f1efe-a4e1-4e9c-9308-71d82a30f7e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td/label</value>
+      <webElementGuid>a60892cf-b087-46fa-ac3b-abe4ffa4358b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Create New Group' or . = 'Create New Group')]</value>
+      <webElementGuid>621e65b0-ecaa-4a53-9a42-249f596d682d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

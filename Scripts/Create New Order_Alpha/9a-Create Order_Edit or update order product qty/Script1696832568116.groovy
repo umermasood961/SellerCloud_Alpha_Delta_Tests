@@ -17,21 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.click(findTestObject('OrderEdit_actions/select_clickActionsdepdown'))
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.selectOptionByValue(findTestObject('OrderEdit_actions/select_clickActionsdepdown'), '5000', false)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.click(findTestObject('OrderEdit_actions/input_GoActionBtn'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(2)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.scrollToElement(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddnewSKU'), 0)
+
+WebUI.click(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddnewSKU'))
+
+'add another SKU name (must be searchable or existing)'
+WebUI.setText(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddnewSKU'), 'AIRCONDI-AQ3-456-B-Black-43')
+
+WebUI.click(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddQTYField'))
+
+WebUI.setText(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddQTYField'), '3')
+
+WebUI.click(findTestObject('OrderEdit_actions/Page_NewItemAdd/input_AddbtnAddNewItemToOrder'))
+
+WebUI.click(findTestObject('OrderEdit_actions/save Calcualte btn'))
 
 WebUI.waitForJQueryLoad(0)
+
+WebUI.click(findTestObject('OrderEdit_actions/input_EidtSaveOrder'))
 

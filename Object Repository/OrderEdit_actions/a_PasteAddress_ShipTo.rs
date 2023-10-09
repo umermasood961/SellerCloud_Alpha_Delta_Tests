@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_PasteAddress_ShipTo</name>
+   <tag></tag>
+   <elementGuidId>b6421ce5-e91e-480a-9c00-2fcced25716a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ContentPlaceHolder1_btnPasteAddress']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_btnPasteAddress</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5fd6c45f-04e9-41bb-96d1-d0ebb392c07e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>showAddressField(); return false;</value>
+      <webElementGuid>72ad179b-19b8-4f43-8610-22a93f24e1c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_btnPasteAddress</value>
+      <webElementGuid>97fb98c1-2f5a-4ee3-add3-90acef07588d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnPasteAddress&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))</value>
+      <webElementGuid>94917193-92b8-4e74-abc3-df03102ed75a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Paste Address</value>
+      <webElementGuid>74d30802-7ab9-47fd-b013-3fbef34ecea8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_btnPasteAddress&quot;)</value>
+      <webElementGuid>362b1e59-ef37-4722-84d7-3d0c2d1bdfdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ContentPlaceHolder1_btnPasteAddress']</value>
+      <webElementGuid>e12d7993-6271-45ef-89ee-a2f8379e7335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_pnlUpdateAddresses']/table/tbody/tr/td[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>892855b0-78e5-4de9-8e03-fc87f2f9e39f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Paste Address')]</value>
+      <webElementGuid>31555acf-05e0-4d5f-a8d6-9bb55a13c12c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::a[1]</value>
+      <webElementGuid>30f6f670-49ac-4daf-95d3-5985a116a71e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[2]/preceding::a[1]</value>
+      <webElementGuid>bc3c17b3-a621-4283-90c8-873c224663e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First, MI'])[2]/preceding::a[1]</value>
+      <webElementGuid>6e823e8a-5ee2-42c4-998c-338195f341c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Paste Address']/parent::*</value>
+      <webElementGuid>89836110-96ef-42d8-90fe-6523862028c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnPasteAddress&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))')]</value>
+      <webElementGuid>0a025b3d-0091-434a-968b-39510fb2a3e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/table/tbody/tr/td[2]/table/tbody/tr/td/a</value>
+      <webElementGuid>e5feceba-5f41-4b65-bc3c-4e1d089a5060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ContentPlaceHolder1_btnPasteAddress' and @href = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnPasteAddress&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))' and (text() = 'Paste Address' or . = 'Paste Address')]</value>
+      <webElementGuid>210f8234-33ad-48e9-b219-b0a67ffd88d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

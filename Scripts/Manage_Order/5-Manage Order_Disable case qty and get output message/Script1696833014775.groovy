@@ -17,21 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Manage_Order/Create Order_With Product_Alpha 1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), '587841', false)
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.click(findTestObject('Page_CaseQty/Continue btn'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForJQueryLoad(2)
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+Notification_Enb = WebUI.getText(findTestObject('Page_CaseQty/div_Per case Qty enabled'))
 
-WebUI.waitForJQueryLoad(0)
+WebUI.click(findTestObject('Page_CaseQty/Page_CaseQty_dtl/a_OrderDtl'))
 
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
+
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), '587841', false)
+
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
+
+Notification_Dsb = WebUI.getText(findTestObject('Page_CaseQty/div_Case Qty disabled on order'))
+
+if (Notification_Dsb.contains('Case Qty disabled on order')) {
+	println('Success')
+} else {
+	KeywordUtil.markFailed('Failed due to setting AllowShippingUnpaidOrders disabled on client or company level')
+}

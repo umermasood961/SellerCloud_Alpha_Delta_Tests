@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4-Create Order_Add non exist producut and catch exception</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3884a2d4-4b71-4e9b-b72c-a0b04b2026f8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectCardType</name>
+   <tag></tag>
+   <elementGuidId>eaf76bbf-8dee-41cd-9b80-1dd6ce21489e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ContentPlaceHolder1_ddlCreditCardType']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_ddlCreditCardType</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5e39f074-45e9-4df5-85e6-b3099ad48f6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ContentPlaceHolder1$ddlCreditCardType</value>
+      <webElementGuid>31c2b8a8-aa79-47cb-a298-61df2e2f0ed9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlCreditCardType\',\'\')', 0)</value>
+      <webElementGuid>d2358873-90a5-4e6e-8f50-1ffb94879ba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_ddlCreditCardType</value>
+      <webElementGuid>1ac2048c-d215-4b59-a529-f58815d4fe68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+			Visa
+			Mastercard
+			Amex
+			Discover
+			JCB
+			Diner's Club
+
+		</value>
+      <webElementGuid>d47e0665-c91d-42c9-a94e-9ad3f608bb78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_ddlCreditCardType&quot;)</value>
+      <webElementGuid>2790665f-524d-4950-95e5-a495ba30f093</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ContentPlaceHolder1_ddlCreditCardType']</value>
+      <webElementGuid>8635a5a3-f4d2-4218-af28-04c541922c9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='trPaymentCC']/td/table/tbody/tr[2]/td[2]/select</value>
+      <webElementGuid>6fac34d2-a3ec-45ab-bfaf-801442317667</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type:'])[1]/following::select[1]</value>
+      <webElementGuid>07e97b29-d8c0-41a7-89e7-1d9720cd927b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing Cards:'])[1]/following::select[2]</value>
+      <webElementGuid>613bff4a-ad8c-4567-ae9f-144fd26424eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number:'])[1]/preceding::select[1]</value>
+      <webElementGuid>241153d2-4c00-4035-a341-5bcf24392722</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expires:'])[1]/preceding::select[1]</value>
+      <webElementGuid>abd8b083-e96a-41f7-a19d-e40b8671a067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td/table/tbody/tr[2]/td[2]/select</value>
+      <webElementGuid>7f10ca26-a0f5-4b5b-9a0f-6df3955c7f66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$ContentPlaceHolder1$ddlCreditCardType' and @id = 'ContentPlaceHolder1_ddlCreditCardType' and (text() = concat(&quot;
+			Visa
+			Mastercard
+			Amex
+			Discover
+			JCB
+			Diner&quot; , &quot;'&quot; , &quot;s Club
+
+		&quot;) or . = concat(&quot;
+			Visa
+			Mastercard
+			Amex
+			Discover
+			JCB
+			Diner&quot; , &quot;'&quot; , &quot;s Club
+
+		&quot;))]</value>
+      <webElementGuid>994cd34e-bfb0-4165-a2b4-26e4a07a89ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

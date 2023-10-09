@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9c-Manage Order_Verify reason selected or product qty set for RMA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c647904-193e-4732-bc9a-01238ea4362b</testCaseGuid>
+</TestCaseEntity>

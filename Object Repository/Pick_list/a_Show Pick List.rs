@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Show Pick List</name>
+   <tag></tag>
+   <elementGuidId>cc65dac0-3aa6-4e06-bd3d-86c68227905f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e4ddc6a7-4d89-4411-8b34-99108d6a0ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>document.forms[0].target = '_blank';</value>
+      <webElementGuid>2f7a6047-2c27-440a-b454-edbcd8ce09da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs</value>
+      <webElementGuid>fce11b88-e51b-4a28-9207-3199d7e93fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$QueuedJobDetail1$hypViewBulkUpdateLogs','')</value>
+      <webElementGuid>89ebed5b-d51b-4fbf-baf3-5259b3ec6514</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show Pick List</value>
+      <webElementGuid>a89743d3-906e-48d9-a7d2-aa826e5afd52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs&quot;)</value>
+      <webElementGuid>3582bd36-8e0f-4db9-9c4e-2126a8d7a09f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs']</value>
+      <webElementGuid>c4f1d648-fe02-4b90-b504-cfaa9ab18e69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_pnlMainJobDetais']/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>3a0be0d3-8c04-4b86-87e1-ba5419d08b66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Show Pick List')]</value>
+      <webElementGuid>c4bb32f1-ac7e-4e1e-a774-ad31508a861b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job ID:'])[1]/following::a[1]</value>
+      <webElementGuid>98cdc403-c9cd-44ca-b1a0-155b33cf6cc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Processed'])[1]/following::a[1]</value>
+      <webElementGuid>43ce2d82-e3c9-495f-bd88-931cc2131c4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company:'])[1]/preceding::a[2]</value>
+      <webElementGuid>578396b8-8e75-41a3-9173-b8449be97f0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khurramcomp'])[2]/preceding::a[2]</value>
+      <webElementGuid>3516fc03-28dc-4a84-8494-a8ea0df60b3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Show Pick List']/parent::*</value>
+      <webElementGuid>fd220960-52ac-4e8e-ab61-e94a0dce90b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$QueuedJobDetail1$hypViewBulkUpdateLogs','')&quot;)]</value>
+      <webElementGuid>6f8f6f99-20aa-49d1-aea2-df419f5bbc34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a</value>
+      <webElementGuid>f49ba033-1cc0-4a0a-92b3-f5c2c34965d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ContentPlaceHolder1_ContentPlaceHolder1_QueuedJobDetail1_hypViewBulkUpdateLogs' and @href = concat(&quot;javascript:__doPostBack(&quot; , &quot;'&quot; , &quot;ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$QueuedJobDetail1$hypViewBulkUpdateLogs&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Show Pick List' or . = 'Show Pick List')]</value>
+      <webElementGuid>312d0dee-378d-468b-8360-d29471699b8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

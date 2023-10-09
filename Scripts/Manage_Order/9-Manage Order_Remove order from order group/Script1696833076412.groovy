@@ -19,19 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Create New Order_Alpha/Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Create New Order_Alpha/1-Create Order_With Product_Alpha'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Orders_Alpha_CreateNew/Page_SellerCloud_Orders/a_Orders'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'))
+WebUI.click(findTestObject('Page_Delete_Order/input_select_btnSearch'))
 
-'add value for edit order. get edit order value by inspecting the actions bar'
-WebUI.selectOptionByValue(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/select_ActionForEditOrder'), '5000', 
-    false)
+WebUI.click(findTestObject('Page_texsave/select order'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_GO_ImageButton1'))
+WebUI.waitForPageLoad(2)
 
-WebUI.waitForPageLoad(5)
+WebUI.click(findTestObject('Page_CaseQty/Select_Actions'))
 
-WebUI.click(findTestObject('Page_SellerCloud_Login/Page_After_Order_create/input_btnSaveAfter Edit'))
+WebUI.selectOptionByValue(findTestObject('Page_CaseQty/Select_Actions'), 'RemoveFromOrderGroup', false)
 
-WebUI.waitForJQueryLoad(0)
+WebUI.click(findTestObject('Page_CaseQty/input_GoBtn'))
+
+WebUI.click(findTestObject('Order_addToGroupTest/Remove_order_grp/select_orderstest_OrderGrp'))
+
+WebUI.selectOptionByValue(findTestObject('Order_addToGroupTest/Remove_order_grp/select_orderstest_OrderGrp'), '10', false)
+
+WebUI.click(findTestObject('Order_addToGroupTest/Remove_order_grp/input_btnRemoveFromGroup'))
+
+WebUI.getText(findTestObject('Order_addToGroupTest/Remove_order_grp/div_output'))
 

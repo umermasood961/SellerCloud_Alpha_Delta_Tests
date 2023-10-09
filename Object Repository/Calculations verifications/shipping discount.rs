@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>shipping discount</name>
+   <tag></tag>
+   <elementGuidId>c725473f-4240-4577-9fb8-c0e2bad85b29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td[4]/table/tbody/tr[7]/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>cb09413b-a88b-4cfc-96fe-b7bc63754921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BVSmallText</value>
+      <webElementGuid>e07780d9-9d02-459b-a033-cb3f3ded9f29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>valign</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>6aac2ece-70d0-4538-a583-7a0087fea373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>left</value>
+      <webElementGuid>48c51f78-1f25-40fb-b219-7a2fcc9633a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shipping Discount:
+                                                    </value>
+      <webElementGuid>0a92550f-7887-4a8c-862b-fb039aa44ac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/table[1]/tbody[1]/tr[4]/td[@class=&quot;MiddleColumn&quot;]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[5]/td[1]/table[1]/tbody[1]/tr[1]/td[@class=&quot;BVSmallText&quot;]/table[1]/tbody[1]/tr[7]/td[@class=&quot;BVSmallText&quot;]</value>
+      <webElementGuid>c4913876-e44e-4e83-a514-027a4189ca14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/table/tbody/tr[4]/td[2]/table/tbody/tr[2]/td/div/table/tbody/tr/td/table/tbody/tr[5]/td/table/tbody/tr/td[4]/table/tbody/tr[7]/td</value>
+      <webElementGuid>35b79da5-aa4e-4928-8896-4a47de0f8d63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[14]/following::td[3]</value>
+      <webElementGuid>081f8a75-eaa7-40fc-b003-10fda60f044c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0.00'])[15]/preceding::td[1]</value>
+      <webElementGuid>318d6c55-9648-44d4-91a7-a1aeba19b80e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Handling:'])[1]/preceding::td[2]</value>
+      <webElementGuid>e083e7c5-1876-4595-a07c-0f017f9055a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shipping Discount:']/parent::*</value>
+      <webElementGuid>e6cb25d3-b668-4c3c-8a09-34ecdfb6968c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/table/tbody/tr[7]/td</value>
+      <webElementGuid>12bbc0d5-d395-4d17-8347-bbe69439a56d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Shipping Discount:
+                                                    ' or . = 'Shipping Discount:
+                                                    ')]</value>
+      <webElementGuid>8f2b2283-390a-44a1-bdf8-3cb58ae57f4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
